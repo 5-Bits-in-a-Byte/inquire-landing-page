@@ -5,12 +5,12 @@ import ModalVideo from 'react-modal-video';
 import { IoIosPlayCircle } from 'react-icons/io';
 import { useStaticQuery, graphql } from 'gatsby';
 const BANNER_DATA = {
-  title: 'Welcome to next level Cryptocurrencies Token with faster transfer',
+  title: 'Welcome to Inquire',
   text:
-    'We helps brands & agencies manage top-performing influencer programs: talent discovery & qualification, relationship management, automated campaign reporting, performance measurement and competitive benchmarking.',
+    'A message board for course instructors and students to post questions, provide answers, connect, and communicate. We hope to make your learning experience a better place one message at a time.',
   button: {
-    link: '#',
-    label: 'Get Token',
+    link: "#",
+    label: 'Take me to Inquire',
   },
   videoBtn: {
     link: '#',
@@ -47,7 +47,7 @@ const Banner = () => {
               {button.label}
             </Link>
 
-            <>
+            {/* <>
               <ModalVideo
                 channel="youtube"
                 isOpen={videoOpen}
@@ -58,7 +58,7 @@ const Banner = () => {
                 {videoBtn.label}
                 <IoIosPlayCircle />
               </Button>
-            </>
+            </> */}
           </Box>
         </Box>
 

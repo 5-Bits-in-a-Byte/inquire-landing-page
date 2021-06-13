@@ -4,26 +4,26 @@ import line from 'assets/roadmap-line.svg';
 const ROAD_MAP_DATA = {
   blockTitle: {
     title: 'Meet the Roadmap',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing',
+    text: 'This roadap shows significant achievements throughout the development of Inquire.',
   },
   posts: [
     {
-      date: '29 January 2019',
-      title: 'Join new server hosting',
+      date: '6 February 2021',
+      title: 'Inquire is Born',
       text:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor labore dolore',
+        'This project was initially created for CIS 422 "Software Methodology" at the University of Oregon. In one month we created our MVP with user login, course creation, and rudimentary posts.',
     },
     {
-      date: '17 April 2019',
-      title: 'Mining coin with latest gpu',
+      date: '29 May 2021',
+      title: 'Core Features Completed',
       text:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor labore dolore',
+        'After our collaborative success in CIS 422 we took it upon ourselves to expand on the platform incorporating new features and refactoring old systems to better fit a production setting.',
     },
     {
-      date: '31 October 2019',
-      title: 'Turn new website with design',
+      date: 'Fall 2021',
+      title: 'First Trial Run',
       text:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor labore dolore',
+        'In the fall of this year we plan on doing a test run of Inquire for CIS 422 taught by Prof. Michal Young.',
     },
   ],
 };
@@ -206,7 +206,7 @@ const styles = {
     color: 'rgba(2,7,62,.7)',
     transition: 'all 300ms ease',
     '&:hover': {
-      backgroundColor: '#161718',
+      backgroundColor: '#162B55',
       color: '#ffffff',
     },
   },

@@ -6,7 +6,7 @@ import Logo from 'components/logo';
 import { DrawerProvider } from 'contexts/drawer/drawer.provider';
 import MobileDrawer from './mobileDrawer';
 import MENU_DATA from './header.data';
-import logoDark from 'assets/logo.svg';
+import logoDark from 'assets/logo-with-name.svg';
 
 export default function Header({ className }) {
   return (

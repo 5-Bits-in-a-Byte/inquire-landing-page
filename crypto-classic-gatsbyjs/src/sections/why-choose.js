@@ -1,36 +1,36 @@
 import React from 'react';
 import { Container, Box, Flex, Heading, Text, Image as Img } from 'theme-ui';
-import icon1 from 'assets/why-choose-1.svg';
-import icon2 from 'assets/why-choose-2.svg';
-import icon3 from 'assets/why-choose-3.svg';
-import icon4 from 'assets/why-choose-4.svg';
+import OAuthImage from 'assets/oauth.svg';
+import MarkdownImage from 'assets/markdown.svg';
+import ConfigRolesImage from 'assets/config-roles.svg';
+import InteractionImage from 'assets/interaction.svg';
 const WHY_CHOOSE_DATA = {
   blockTitle: {
-    title: 'Why you choose TheCoin',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing',
+    title: 'Inquire\'s Current Feature Set',
+    text: 'With Inquire we were',
   },
   posts: [
     {
-      icon: icon1,
-      title: 'Great Market Value',
+      icon: OAuthImage,
+      title: 'OAuth Authentication',
       text:
         'Lorem ipsum dolor sit amet with consectetur adipisicing elit the help eiusmod tempor.',
     },
     {
-      icon: icon2,
-      title: 'Verified Mining Process',
+      icon: MarkdownImage,
+      title: 'Post Markdown Editor',
       text:
         'Lorem ipsum dolor sit amet with consectetur adipisicing elit the help eiusmod tempor.',
     },
     {
-      icon: icon3,
-      title: 'Fastest Miner',
+      icon: ConfigRolesImage,
+      title: 'Configurable User Roles',
       text:
         'Lorem ipsum dolor sit amet with consectetur adipisicing elit the help eiusmod tempor.',
     },
     {
-      icon: icon4,
-      title: 'Secure Transaction',
+      icon: InteractionImage,
+      title: 'Classroom Interaction',
       text:
         'Lorem ipsum dolor sit amet with consectetur adipisicing elit the help eiusmod tempor.',
     },

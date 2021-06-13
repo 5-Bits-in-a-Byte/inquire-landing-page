@@ -5,15 +5,11 @@ const MENU_DATA = [
   },
   {
     path: 'services',
-    label: 'Services',
+    label: 'Features',
   },
   {
     path: 'roadmap',
     label: 'Roadmap',
-  },
-  {
-    path: 'downloads',
-    label: 'Downloads',
   },
   {
     path: 'contact',

@@ -4,6 +4,8 @@ import Seo from 'components/seo';
 import Banner from 'sections/banner';
 import WhyChoose from 'sections/why-choose';
 import SalesInvestment from 'sections/sales-investment';
+import LeftInfo from 'sections/left-info';
+import RightInfo from 'sections/right-info';
 import RoadMap from 'sections/roadmap';
 import CountDownBlock from 'sections/countdown';
 import WorldwideUsers from 'sections/worldwide-user';
@@ -24,11 +26,13 @@ export default function IndexPage() {
         />
         <Banner />
         <WhyChoose />
-        <SalesInvestment />
+        {/* <SalesInvestment /> */}
+        <LeftInfo />
+        <RightInfo />
         <RoadMap />
-        <CountDownBlock />
-        <WorldwideUsers />
-        <OurWallet />
+        {/* <CountDownBlock /> */}
+        {/* <WorldwideUsers /> */}
+        {/* <OurWallet /> */}
         <CallToAction />
       </Layout>
     </StickyProvider>

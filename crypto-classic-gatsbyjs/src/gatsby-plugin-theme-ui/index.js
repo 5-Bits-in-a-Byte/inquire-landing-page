@@ -11,22 +11,22 @@ const Theme = {
   space: [0, 5, 10, 15, 20, 25, 30, 50, 80, 100, 120, 150],
   // example colors with dark mode
   colors: {
-    text: '#02073E', // body color and primary color
+    text: '#162B55', // body color and primary color
     text_secondary: '#676A8B', // secondary body color
-    heading: '#02073E', // primary heading color
-    heading_secondary: '#161718', // heading color
+    heading: '#162B55', // primary heading color
+    heading_secondary: '#4A86FA', // heading color
     background: '#FFFFFF', // body background color
     background_secondary: '#F9FBFD', // secondary background color
-    border_color: '#E9EDF5', // border color
+    border_color: '#E7E7E7', // border color
     primary: '#3CC68A', // primary button and link color
     secondary: '#30c', // secondary color - can be used for hover states
-    muted: '#7B8188', // muted color
+    muted: '#E7E7E7', // muted color
     accent: '#609', // a contrast color for emphasizing UI
   },
   fonts: {
-    body: 'DM Sans',
-    heading: 'DM Sans',
-    archivo: 'Archivo',
+    body: 'Roboto',
+    heading: 'Roboto',
+    archivo: 'Roboto',
   },
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
   fontWeights: {
@@ -59,7 +59,7 @@ const Theme = {
       px: [4, null, 5, 6],
     },
     header: {
-      color: '#02073E',
+      color: '#162B55',
       fontWeight: 'normal',
       py: 3,
     },
