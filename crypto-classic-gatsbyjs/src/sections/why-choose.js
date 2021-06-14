@@ -7,7 +7,7 @@ import InteractionImage from 'assets/interaction.svg';
 const WHY_CHOOSE_DATA = {
   blockTitle: {
     title: 'Inquire\'s Current Feature Set',
-    text: 'With Inquire we were',
+    text: 'With Inquire, classroom discussion is more focused and productive.',
   },
   posts: [
     {

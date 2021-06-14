@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Startup Crypto Classic Landing`,
-    description: `Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!`,
-    author: `RedQ, Inc.`,
+    title: `Landing Page`,
+    description: `A message board/forum for course instructors and students to post questions, provide answers, connect, and communicate.`,
+    author: `5 Bits in a Byte`,
   },
   plugins: [
     `gatsby-plugin-theme-ui`,
@@ -25,7 +25,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/images/favicon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/inquire-favicon-32x32.png`, // This path is relative to the root of the site.
       },
     },
     {
