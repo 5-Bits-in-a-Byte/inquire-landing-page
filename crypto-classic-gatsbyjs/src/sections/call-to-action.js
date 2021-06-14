@@ -1,9 +1,9 @@
 import React from 'react';
 import { Box, Container, Heading, Text, Link } from 'theme-ui';
 const CALL_TO_ACTION_DATA = {
-  title: 'Want to talk to our Support team?',
+  title: 'Meet 5 Bits in a Byte',
   text:
-    'Discover how team can help you power-up your influencer photo marketing program.',
+    'The team of 5 software developers who brought you Inquire.',
   button: {
     link: '#',
     label: 'Ask you Question',
@@ -16,9 +16,9 @@ const CallToAction = () => {
       <Container>
         <Heading as="h2">{title}</Heading>
         <Text as="p">{text}</Text>
-        <Link sx={styles.button} href={button.link}>
+        {/* <Link sx={styles.button} href={button.link}>
           {button.label}
-        </Link>
+        </Link> */}
       </Container>
     </Box>
   );
@@ -28,7 +28,7 @@ export default CallToAction;
 
 const styles = {
   section: {
-    pb: ['70px', null, '80px', null, '95px', null, '110px'],
+    pb: ['70px', null, '80px', null, '95px', null, '95px'],
     pt: ['65px', null, '75px', null, '85px', null, '95px'],
     backgroundColor: 'heading_secondary',
     textAlign: 'center',

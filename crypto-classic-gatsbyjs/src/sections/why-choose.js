@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Box, Flex, Heading, Text, Image as Img } from 'theme-ui';
 import OAuthImage from 'assets/oauth.svg';
-import MarkdownImage from 'assets/markdown.svg';
+import EditImage from 'assets/edit.svg';
 import ConfigRolesImage from 'assets/config-roles.svg';
 import InteractionImage from 'assets/interaction.svg';
 const WHY_CHOOSE_DATA = {
@@ -14,25 +14,25 @@ const WHY_CHOOSE_DATA = {
       icon: OAuthImage,
       title: 'OAuth Authentication',
       text:
-        'Lorem ipsum dolor sit amet with consectetur adipisicing elit the help eiusmod tempor.',
+        'We integrated third party authentication to keep your account safe and secure so you don\'t have to worry.',
     },
     {
-      icon: MarkdownImage,
+      icon: EditImage,
       title: 'Post Markdown Editor',
       text:
-        'Lorem ipsum dolor sit amet with consectetur adipisicing elit the help eiusmod tempor.',
+        'To allow our users more flexibility when creating posts, we provide a built-in markdown editor to make styling posts as easy as ever.',
     },
     {
       icon: ConfigRolesImage,
       title: 'Configurable User Roles',
       text:
-        'Lorem ipsum dolor sit amet with consectetur adipisicing elit the help eiusmod tempor.',
+        'Instructors of courses can easily modify user permissions and assign them specifically to each student/TA in their course.',
     },
     {
       icon: InteractionImage,
       title: 'Classroom Interaction',
       text:
-        'Lorem ipsum dolor sit amet with consectetur adipisicing elit the help eiusmod tempor.',
+        'Interacting with peers is as simple as posting questions and replies to one another.',
     },
   ],
 };

@@ -4,6 +4,7 @@ import { Container, Box, Heading, Text, Button, Link } from 'theme-ui';
 import ModalVideo from 'react-modal-video';
 import { IoIosPlayCircle } from 'react-icons/io';
 import { useStaticQuery, graphql } from 'gatsby';
+import InquireImage from '../../src/assets/images/Inquire-ClassView-Example01.svg'
 const BANNER_DATA = {
   title: 'Welcome to Inquire',
   text:
@@ -21,7 +22,7 @@ const BANNER_DATA = {
 const Banner = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "banner.png" }) {
+      placeholderImage: file(relativePath: { eq: "inquire-example-01.png" }) {
         childImageSharp {
           fluid(maxWidth: 740) {
             ...GatsbyImageSharpFluid
@@ -66,8 +67,11 @@ const Banner = () => {
           <Box sx={styles.thumbnail}>
             <Img
               fluid={data.placeholderImage.childImageSharp.fluid}
-              alt="Banner Thumbnail"
+              alt="Inquire Example Image"
+              style={{boxShadow: `10px 10px 15px rgba(0, 0, 0, 0.25)`, borderRadius: `1em`}}
             />
+
+            {/* <img src={InquireImage} style={{maxWidth: `800px`, height: `auto`, width: `auto / 9`, boxShadow: `10px 10px 15px rgba(0, 0, 0, 0.25)`, borderRadius: `1em`}} /> */}
           </Box>
         </Box>
       </Container>

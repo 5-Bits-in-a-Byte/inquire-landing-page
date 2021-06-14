@@ -3,18 +3,9 @@ import Img from 'gatsby-image';
 import { useStaticQuery, graphql } from 'gatsby';
 import { Box, Container, Flex, Heading, Text, Link } from 'theme-ui';
 
-const SALES_INVESTMENT_DATA = {
-    title: 'Total Investment sale from last year transaction',
-    text:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore magna aliqua minim Lorem ipsum dolor sit amet consectetur.',
-    button: {
-      link: '#',
-      label: 'Learn More',
-    },
-  };
 
-const RightInfo = () => {
-    const { title, text, button } = SALES_INVESTMENT_DATA;
+const RightInfo = ({infoObject, queryData, imageStyling}) => {
+    const { title, text, button } = infoObject;
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "graph.png" }) {
@@ -41,8 +32,9 @@ const RightInfo = () => {
           <Box sx={styles.image}>
             <Box sx={styles.thumbnail}>
               <Img
-                fluid={data.placeholderImage.childImageSharp.fluid}
+                fluid={queryData}
                 alt="Investment Thumbnail"
+                style={imageStyling}
               />
             </Box>
           </Box>
