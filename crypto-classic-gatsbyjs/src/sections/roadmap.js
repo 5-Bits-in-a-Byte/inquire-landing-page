@@ -3,15 +3,15 @@ import { Box, Container, Flex, Heading, Text, Image, Link } from 'theme-ui';
 import line from 'assets/roadmap-line.svg';
 const ROAD_MAP_DATA = {
   blockTitle: {
-    title: 'Meet the Roadmap',
-    text: 'This roadap shows significant achievements throughout the development of Inquire.',
+    title: 'Inquire Development Timeline',
+    text: 'This timeline of events showcases significant achievements throughout the development of Inquire, as well as what we plan to do with the project moving forward.',
   },
   posts: [
     {
       date: '6 February 2021',
       title: 'Inquire is Born',
       text:
-        'This project was initially created for CIS 422 "Software Methodology" at the University of Oregon. In one month we created our MVP with user login, course creation, and rudimentary posts.',
+        'This project was initially created for CIS 422 "Software Methodology" at the University of Oregon. In one month we created our MVP with user login, course creation, and a simple model for posts.',
     },
     {
       date: '29 May 2021',
@@ -23,7 +23,7 @@ const ROAD_MAP_DATA = {
       date: 'Fall 2021',
       title: 'First Trial Run',
       text:
-        'In the fall of this year we plan on doing a test run of Inquire for CIS 422 taught by Prof. Michal Young.',
+        'In the fall of this year we plan on doing a test run of Inquire for CIS 422 taught by Prof. Michal Young at the University of Oregon.',
     },
   ],
 };
@@ -55,7 +55,7 @@ const RoadMap = () => {
         </Flex>
       </Container>
       <Box sx={styles.buttonWrap}>
-        <Link sx={styles.button} href="#">
+        <Link sx={styles.button} href="https://github.com/5-Bits-in-a-Byte/message-board">
           SEE FULL Roadmap
         </Link>
       </Box>
