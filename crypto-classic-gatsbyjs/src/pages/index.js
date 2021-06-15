@@ -3,6 +3,7 @@ import { StickyProvider } from 'contexts/app/app.provider';
 import Seo from 'components/seo';
 import Banner from 'sections/banner';
 import WhyChoose from 'sections/why-choose';
+import DevBios from 'sections/dev-bios';
 import SalesInvestment from 'sections/sales-investment';
 import LeftInfo from 'sections/left-info';
 import RightInfo from 'sections/right-info';
@@ -111,7 +112,8 @@ export default function IndexPage() {
         {/* <CountDownBlock /> */}
         {/* <WorldwideUsers /> */}
         {/* <OurWallet /> */}
-        <CallToAction />
+        {/* <CallToAction /> */}
+        <DevBios />
       </Layout>
     </StickyProvider>
   );
