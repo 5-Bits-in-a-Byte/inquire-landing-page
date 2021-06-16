@@ -53,9 +53,11 @@ const MobileDrawer = () => {
           </Box>
 
           <Box sx={styles.menuFooter}>
+            <a href="https://inquire-server-6p24p.ondigitalocean.app/">
             <Button variant="primary" sx={styles.button}>
               TAKE ME TO INQUIRE
             </Button>
+            </a>
           </Box>
         </Box>
       </Scrollbars>
