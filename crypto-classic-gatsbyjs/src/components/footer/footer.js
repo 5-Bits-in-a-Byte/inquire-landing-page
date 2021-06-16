@@ -2,25 +2,12 @@
 /** @jsx jsx */
 import { jsx, Container, Box, Flex, Heading, Link } from 'theme-ui';
 
-import FOOTER_DATA from './footer.data';
-
 const Footer = () => {
   return (
     <Box as="footer" sx={styles.footer}>
       <Container>
         <Flex sx={styles.row}>
-          {FOOTER_DATA.map(({ title, menuItem }, index) => (
-            <Box sx={styles.widget} key={`footer-widget-key-${index}`}>
-              <Heading as="h2">{title}</Heading>
-              <ul>
-                {menuItem.map(({ link, label }, index) => (
-                  <li key={`footer-menu-item-key-${index}`}>
-                    <Link href={link}>{label}</Link>
-                  </li>
-                ))}
-              </ul>
-            </Box>
-          ))}
+          Copyright© 5 Bits in a Byte
         </Flex>
       </Container>
     </Box>
@@ -31,12 +18,14 @@ export default Footer;
 
 const styles = {
   footer: {
-    pt: ['65px', null, '75px', null, '90px'],
-    pb: ['25px', null, '35px', '25px', '80px'],
+    // height: '1000px',
+    pt: ['65px', null, '75px', null, '150px'],
+    pb: ['25px', null, '35px', '25px', '150px'],
   },
   row: {
     display: 'flex',
     flexWrap: 'wrap',
+    justifyContent: 'center',
     px: [0, null, null, '40px', 0, '60px'],
   },
   widget: {

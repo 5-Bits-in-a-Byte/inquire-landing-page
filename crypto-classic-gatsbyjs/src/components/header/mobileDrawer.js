@@ -7,7 +7,7 @@ import { IoMdClose, IoMdMenu } from 'react-icons/io';
 import { Link as ScrollLink } from 'react-scroll';
 import MENU_DATA from './header.data';
 import Logo from 'components/logo';
-import logoDark from 'assets/logo.svg';
+import InquireLogoImg from 'assets/logo-with-name.svg';
 
 const MobileDrawer = () => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -35,7 +35,7 @@ const MobileDrawer = () => {
     >
       <Scrollbars autoHide>
         <Box sx={styles.content}>
-          <Logo image={logoDark} />
+          <Logo image={InquireLogoImg} />
           <Box sx={styles.menu}>
             {MENU_DATA.map(({ path, label }, i) => (
               <ScrollLink
@@ -54,7 +54,7 @@ const MobileDrawer = () => {
 
           <Box sx={styles.menuFooter}>
             <Button variant="primary" sx={styles.button}>
-              Purchase Now
+              TAKE ME TO INQUIRE
             </Button>
           </Box>
         </Box>
@@ -131,22 +131,20 @@ const styles = {
   },
 
   button: {
-    fontSize: '15px',
-    fw: '700',
-    height: '48px',
+    backgroundColor: 'heading_secondary',
     borderRadius: '3px',
+    lineHeight: 1,
     cursor: 'pointer',
-    width: '100%',
-    display: 'flex',
+    fontSize: ['13px', '14px', '15px'],
+    padding: ['14px 20px 13px', '14px 25px 13px', '17px 30px 15px'],
+    fontWeight: 700,
+    display: 'inline-flex',
     alignItems: 'center',
-    justifyContent: 'center',
-    py: '0',
-    backgroundColor: 'black',
-    color: '#fff',
-    fontFamily: 'body',
-    transition: 'all 0.25s',
+    textTransform: 'uppercase',
+    color: '#ffffff',
+    transition: 'all 300ms ease',
     '&:hover': {
-      opacity: 0.85,
+      opacity: 0.8,
     },
   },
 };

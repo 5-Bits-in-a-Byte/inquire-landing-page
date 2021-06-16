@@ -24,7 +24,7 @@ const InfoData01 = {
   text:
     'Inquire uses third party authentication through GitHub and Google to ensure our users can feel safe and secure with their accounts. This gives us no access to our user\'s usernames or passwords, meaning no malicious users can access them through Inquire either.',
   button: {
-    link: '#',
+    link: 'https://github.com/5-Bits-in-a-Byte/message-board/wiki/OAuth-Authentication',
     label: 'Learn More',
   },
 };
@@ -34,7 +34,7 @@ const InfoData02 = {
   text:
     'When creating and editing posts on Inquire users are able to customize how they want to format and style their posts. This includes adding code blocks, different headers, block quotes, and much more.',
   button: {
-    link: '#',
+    link: 'https://github.com/5-Bits-in-a-Byte/message-board/wiki/Markdown-Editor',
     label: 'Learn More',
   },
 };
@@ -44,7 +44,7 @@ const InfoData03 = {
   text:
     'Instructors of courses on Inquire have the ability to create and assign roles to people in their class. These roles include options to change who can create, delete, edit, and react to posts, and much more.',
   button: {
-    link: '#',
+    link: 'https://github.com/5-Bits-in-a-Byte/message-board/wiki/User-Roles',
     label: 'Learn More',
   },
 };
@@ -54,7 +54,7 @@ const InfoData04 = {
   text:
     'Peer to peer interaction has never been easier! With the help of Inquire, students can interact by posting and replying to questions either normally or anonymously, as well as reacting to other students posts.',
   button: {
-    link: '#',
+    link: 'https://github.com/5-Bits-in-a-Byte/message-board/wiki/Classroom-Interaction',
     label: 'Learn More',
   },
 };

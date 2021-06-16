@@ -55,7 +55,7 @@ const RoadMap = () => {
         </Flex>
       </Container>
       <Box sx={styles.buttonWrap}>
-        <Link sx={styles.button} href="https://github.com/5-Bits-in-a-Byte/message-board">
+        <Link sx={styles.button} href="https://github.com/5-Bits-in-a-Byte/message-board/wiki/Inquire-Roadmap">
           SEE FULL Roadmap
         </Link>
       </Box>
@@ -80,7 +80,7 @@ const styles = {
       null,
       null,
       null,
-      'calc(50% - 176px)',
+      'calc(50% - 179px)',
       'calc(50% - 172px)',
       'calc(50% - 168px)',
     ],
@@ -99,7 +99,7 @@ const styles = {
   },
   blockTitle: {
     textAlign: 'center',
-    mb: ['30px', null, '50px', null, '60px', null, '75px', '105px'],
+    mb: ['30px', null, '50px', null, '60px', null, '45px', '95px'],
     h2: {
       fontSize: ['24px', null, '28px', '30px'],
       lineHeight: [1.35],

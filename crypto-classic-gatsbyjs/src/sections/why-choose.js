@@ -40,7 +40,7 @@ const WHY_CHOOSE_DATA = {
 const WhyChoose = () => {
   const { blockTitle, posts } = WHY_CHOOSE_DATA;
   return (
-    <Box as="section" id="services" sx={styles.section}>
+    <Box as="section" id="features" sx={styles.section}>
       <Container sx={styles.container}>
         <Box sx={styles.blockTitle}>
           <Heading as="h2">{blockTitle.title}</Heading>

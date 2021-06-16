@@ -4,7 +4,7 @@ const MENU_DATA = [
     label: 'Home',
   },
   {
-    path: 'services',
+    path: 'features',
     label: 'Features',
   },
   {

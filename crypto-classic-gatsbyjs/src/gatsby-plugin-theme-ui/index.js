@@ -18,7 +18,7 @@ const Theme = {
     background: '#FFFFFF', // body background color
     background_secondary: '#F9FBFD', // secondary background color
     border_color: '#E7E7E7', // border color
-    primary: '#3CC68A', // primary button and link color
+    primary: '#4a86fa', // primary button and link color
     secondary: '#30c', // secondary color - can be used for hover states
     muted: '#E7E7E7', // muted color
     accent: '#609', // a contrast color for emphasizing UI
