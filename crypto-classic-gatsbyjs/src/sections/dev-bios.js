@@ -13,7 +13,7 @@ const BIOS_DATA = [
     profileImg: STAL_PROFILE_IMG,
     roleTitle: "Fullstack Developer",
     info: "Aspiring Software Engineer | Seeking Entry-Level Programming Position",
-    socials: ["https://github.com/", "https://www.linkedin.com/in/sethtal", "mailto:seth.tal255@gmail.com"],
+    socials: ["https://github.com/Sephta", "https://www.linkedin.com/in/sethtal", "mailto:seth.tal255@gmail.com"],
     bgColor: "#FFFFFF",
     fontColor: "#162b55"
   },
