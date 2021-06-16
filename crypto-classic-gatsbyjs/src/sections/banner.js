@@ -13,10 +13,6 @@ const BANNER_DATA = {
     link: "https://inquire-server-6p24p.ondigitalocean.app/",
     label: 'Take me to Inquire',
   },
-  videoBtn: {
-    link: '#',
-    label: 'White paper',
-  },
 };
 
 const Banner = () => {
@@ -47,19 +43,6 @@ const Banner = () => {
             <Link href={button.link} sx={styles.btn}>
               {button.label}
             </Link>
-
-            {/* <>
-              <ModalVideo
-                channel="youtube"
-                isOpen={videoOpen}
-                videoId="ZNA9rmDsYVE"
-                onClose={() => setVideoOpen(false)}
-              />
-              <Button sx={styles.videoBtn} onClick={handleClick}>
-                {videoBtn.label}
-                <IoIosPlayCircle />
-              </Button>
-            </> */}
           </Box>
         </Box>
 
@@ -70,8 +53,6 @@ const Banner = () => {
               alt="Inquire Example Image"
               style={{boxShadow: `10px 10px 15px rgba(0, 0, 0, 0.25)`, borderRadius: `1em`}}
             />
-
-            {/* <img src={InquireImage} style={{maxWidth: `800px`, height: `auto`, width: `auto / 9`, boxShadow: `10px 10px 15px rgba(0, 0, 0, 0.25)`, borderRadius: `1em`}} /> */}
           </Box>
         </Box>
       </Container>
