@@ -2,6 +2,9 @@ import React from 'react';
 import { Container, Box, Flex, Heading, Text, Image as Img } from 'theme-ui';
 import STAL_PROFILE_IMG from 'assets/images/stal-profile-img.png';
 import BGUN_PROFILE_IMG from 'assets/images/bgun-profile-img.png';
+import ASPR_PROFILE_IMG from 'assets/images/aspringel-profile-img.jpg';
+import AVC_PROFILE_IMG from 'assets/images/avc-profile-img.png';
+import SPET_PROFILE_IMG from 'assets/images/speters-profile-img.png';
 import GITHUB_LOGO from 'assets/images/mdi_github.svg';
 import LINKEDIN_LOGO from 'assets/images/mdi_linkedin.svg';
 import MAIL_LOGO from 'assets/images/Envelope.svg';
@@ -11,8 +14,8 @@ const BIOS_DATA = [
   {
     name: "Seth Tal",
     profileImg: STAL_PROFILE_IMG,
-    roleTitle: "Fullstack Developer",
-    info: "Aspiring Software Engineer | Seeking Entry-Level Programming Position",
+    roleTitle: "Full stack Developer",
+    info: "Aspiring Software Engineer | Seeking Entry-Level Programming Position | Looking for remote or local (Eugene, OR) opportunities.",
     socials: ["https://github.com/Sephta", "https://www.linkedin.com/in/sethtal", "mailto:seth.tal255@gmail.com"],
     bgColor: "#FFFFFF",
     fontColor: "#162b55"
@@ -20,7 +23,7 @@ const BIOS_DATA = [
   {
     name: "Brian Gunnarson",
     profileImg: BGUN_PROFILE_IMG,
-    roleTitle: "Fullstack Developer",
+    roleTitle: "Full stack Developer",
     info: "Brian is a future software developer from Eugene, OR. He enjoys hiking and watching NBA games in his free time.",
     socials: ["https://github.com/bgunnar5", "https://www.linkedin.com/in/brian-gunnarson-7736701a2/", "mailto:brianfunnarson14@gmail.com"],
     bgColor: "#f8f8f8",
@@ -28,27 +31,27 @@ const BIOS_DATA = [
   },
   {
     name: "Sam Peters",
-    profileImg: STAL_PROFILE_IMG,
+    profileImg: SPET_PROFILE_IMG,
     roleTitle: "Backend Developer",
-    info: "lorem ipsum dolar amet set itar, doles.",
+    info: "Currently gathering info...",
     socials: ["https://github.com/sampeters747", "https://www.linkedin.com/in/sam-peters-a765b719a/", "#"],
     bgColor: "#fff",
     fontColor: "#162b55"
   },
   {
     name: "Alec Springel",
-    profileImg: BGUN_PROFILE_IMG,
-    roleTitle: "Team Mascot",
-    info: "lorem ipsum dolar amet set itar, doles.",
+    profileImg: ASPR_PROFILE_IMG,
+    roleTitle: "Full stack Developer",
+    info: "Currently gathering info...",
     socials: ["https://github.com/alecspringel", "https://www.linkedin.com/in/alec-springel/", "#"],
     bgColor: "#f8f8f8",
     fontColor: "#162b55"
   },
   {
     name: "Aaron Van Cleave",
-    profileImg: STAL_PROFILE_IMG,
+    profileImg: AVC_PROFILE_IMG,
     roleTitle: "Frontend Developer",
-    info: "lorem ipsum dolar amet set itar, doles.",
+    info: "Currently gathering info...",
     socials: ["https://github.com/AARONJVC", "https://www.linkedin.com/in/aaron-van-cleave-13mn15c8/", "#"],
     bgColor: "#fff",
     fontColor: "#162b55"
