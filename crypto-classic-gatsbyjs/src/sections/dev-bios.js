@@ -14,7 +14,7 @@ const BIOS_DATA = [
     name: "Seth Tal",
     profileImg: STAL_PROFILE_IMG,
     roleTitle: "Full stack Developer",
-    info: "Aspiring Software Engineer | Seeking Entry-Level Programming Position | Looking for remote or local (Eugene, OR) opportunities.",
+    info: "Seth is an aspiring Software Engineer currently seeking entry-level Programming Positions. Prefers either remote or local (Eugene, OR) opportunities.",
     socials: [
       "https://github.com/Sephta",
       "https://www.linkedin.com/in/sethtal",
@@ -40,7 +40,7 @@ const BIOS_DATA = [
     name: "Sam Peters",
     profileImg: SPET_PROFILE_IMG,
     roleTitle: "Backend Developer",
-    info: "Currently gathering info...",
+    info: "Currently gathering info on Sam Peters . . .",
     socials: [
       "https://github.com/sampeters747",
       "https://www.linkedin.com/in/sam-peters-a765b719a/",
@@ -53,7 +53,7 @@ const BIOS_DATA = [
     name: "Alec Springel",
     profileImg: ASPR_PROFILE_IMG,
     roleTitle: "Full stack Developer",
-    info: "A full-stack engineer with a passion for creating solutions to everyday problems. Alec is currently contracted with Nike as a software engineer.",
+    info: "A Full stack engineer with a passion for creating solutions to everyday problems. Alec is currently contracted with Nike as a software engineer.",
     socials: [
       "https://github.com/alecspringel",
       "https://www.linkedin.com/in/alec-springel/",
@@ -66,7 +66,7 @@ const BIOS_DATA = [
     name: "Aaron Van Cleave",
     profileImg: AVC_PROFILE_IMG,
     roleTitle: "Frontend Developer",
-    info: "Aaron enjoys finding efficient methods to complete tasks and putting 100% effort into all of his work. He is currently an application development intern at Samaritan's Purse.",
+    info: "Aaron enjoys finding efficient methods to complete tasks and putting 100% effort into all of his work. He is currently an Application Development intern at Samaritan's Purse.",
     socials: [
       "https://github.com/AARONJVC",
       "https://www.linkedin.com/in/aaron-van-cleave-13mn15c8/",
@@ -141,15 +141,15 @@ const DevBios = ({ props }) => {
                       alignItems: `center`,
                     }}
                   >
-                    <a as="a" style={{ margin: `0.5em` }} href={socials[0]}>
+                    {(socials[0] == "#") ? <></> : <a as="a" style={{ margin: `0.5em` }} href={socials[0]}>
                       <img src={GITHUB_LOGO} alt="GitHub Logo" />
-                    </a>
-                    <a as="a" style={{ margin: `0.5em` }} href={socials[1]}>
+                    </a>}
+                    {(socials[1] == "#") ? <></> : <a as="a" style={{ margin: `0.5em` }} href={socials[1]}>
                       <img src={LINKEDIN_LOGO} alt="LinkedIn Logo" />
-                    </a>
-                    <a as="a" style={{ margin: `0.5em` }} href={socials[2]}>
+                    </a>}
+                    {(socials[2] == "#") ? <></> : <a as="a" style={{ margin: `0.5em` }} href={socials[2]}>
                       <img src={MAIL_LOGO} alt="Generic Email Icon" />
-                    </a>
+                    </a>}
                   </div>
                 </Box>
               )
