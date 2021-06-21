@@ -40,7 +40,7 @@ const BIOS_DATA = [
     name: "Sam Peters",
     profileImg: SPET_PROFILE_IMG,
     roleTitle: "Backend Developer",
-    info: "Currently gathering info on Sam Peters . . .",
+    info: "Sam is a driven computer science student at the University of Oregon, with a specific interest in building efficient, scalable software systems. Graduating Spring 2022.",
     socials: [
       "https://github.com/sampeters747",
       "https://www.linkedin.com/in/sam-peters-a765b719a/",
