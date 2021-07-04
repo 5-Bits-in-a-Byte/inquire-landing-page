@@ -27,7 +27,7 @@ const BIOS_DATA = [
     name: "Brian Gunnarson",
     profileImg: BGUN_PROFILE_IMG,
     roleTitle: "Full stack Developer",
-    info: "Brian is a future software developer from Eugene, OR. He enjoys hiking and watching NBA games in his free time.",
+    info: "Brian is a future software developer from Eugene, OR with an interest in full stack development and computer graphics. Graduating Winter 2022.",
     socials: [
       "https://github.com/bgunnar5",
       "https://www.linkedin.com/in/brian-gunnarson-7736701a2/",
@@ -53,7 +53,7 @@ const BIOS_DATA = [
     name: "Alec Springel",
     profileImg: ASPR_PROFILE_IMG,
     roleTitle: "Full stack Developer",
-    info: "A Full stack engineer with a passion for creating solutions to everyday problems. Alec is currently contracted with Nike as a software engineer.",
+    info: "A full stack engineer with a passion for creating solutions to everyday problems. Alec is currently contracted with Nike as a software engineer.",
     socials: [
       "https://github.com/alecspringel",
       "https://www.linkedin.com/in/alec-springel/",
@@ -141,15 +141,27 @@ const DevBios = ({ props }) => {
                       alignItems: `center`,
                     }}
                   >
-                    {(socials[0] == "#") ? <></> : <a as="a" style={{ margin: `0.5em` }} href={socials[0]}>
-                      <img src={GITHUB_LOGO} alt="GitHub Logo" />
-                    </a>}
-                    {(socials[1] == "#") ? <></> : <a as="a" style={{ margin: `0.5em` }} href={socials[1]}>
-                      <img src={LINKEDIN_LOGO} alt="LinkedIn Logo" />
-                    </a>}
-                    {(socials[2] == "#") ? <></> : <a as="a" style={{ margin: `0.5em` }} href={socials[2]}>
-                      <img src={MAIL_LOGO} alt="Generic Email Icon" />
-                    </a>}
+                    {socials[0] == "#" ? (
+                      <></>
+                    ) : (
+                      <a as="a" style={{ margin: `0.5em` }} href={socials[0]}>
+                        <img src={GITHUB_LOGO} alt="GitHub Logo" />
+                      </a>
+                    )}
+                    {socials[1] == "#" ? (
+                      <></>
+                    ) : (
+                      <a as="a" style={{ margin: `0.5em` }} href={socials[1]}>
+                        <img src={LINKEDIN_LOGO} alt="LinkedIn Logo" />
+                      </a>
+                    )}
+                    {socials[2] == "#" ? (
+                      <></>
+                    ) : (
+                      <a as="a" style={{ margin: `0.5em` }} href={socials[2]}>
+                        <img src={MAIL_LOGO} alt="Generic Email Icon" />
+                      </a>
+                    )}
                   </div>
                 </Box>
               )
