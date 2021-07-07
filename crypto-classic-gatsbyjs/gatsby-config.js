@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: '/inquire-landing-page',
+  // pathPrefix: '/inquire-landing-page',
   siteMetadata: {
     title: `Landing Page`,
     description: `A message board/forum for course instructors and students to post questions, provide answers, connect, and communicate.`,
