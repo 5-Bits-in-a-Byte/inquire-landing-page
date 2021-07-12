@@ -10,7 +10,7 @@ const BANNER_DATA = {
   text:
     'A message board for course instructors and students to post questions, provide answers, connect, and communicate. We hope to make your learning experience a better place one message at a time.',
   button: {
-    link: "https://inquire-server-6p24p.ondigitalocean.app/",
+    link: "https://inquiremb.com/app/login",
     label: 'Take me to Inquire',
   },
 };
