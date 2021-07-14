@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: '/landing',
   siteMetadata: {
-    title: `Landing Page`,
+    title: `Inquire Message Board`,
     description: `A message board/forum for course instructors and students to post questions, provide answers, connect, and communicate.`,
-    author: `5 Bits in a Byte`,
+    author: `Seth Tal, Brian Gunnarson, Sam Peters, Alec Springel, Aaron Van Cleave`,
   },
   plugins: [
     `gatsby-plugin-theme-ui`,
