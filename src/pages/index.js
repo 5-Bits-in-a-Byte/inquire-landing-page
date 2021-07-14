@@ -63,6 +63,13 @@ export default function IndexPage() {
 
   const query01 = useStaticQuery(graphql`
     query {
+      socialCardImage: file(relativePath: {eq: "inquire-social-card.png"}) {
+        childImageSharp {
+          fluid(maxWidth: 617) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      },
       placeholderImage1: file(relativePath: { eq: "inquire-signin.png" }) {
         childImageSharp {
           fluid(maxWidth: 617) {
@@ -99,21 +106,15 @@ export default function IndexPage() {
       <Layout>
         <Seo
           title="Inquire"
-          description="About
-          A message board/forum for course instructors and students to post questions, provide answers, connect, and communicate."
+          image={query01.socialCardImage.childImageSharp.fluid}
         />
         <Banner />
         <WhyChoose />
-        {/* <SalesInvestment /> */}
         <LeftInfo infoObject={InfoData01} queryData={query01.placeholderImage1.childImageSharp.fluid} imageStyling={{boxShadow: `-50px 100px 35px #12121222`, transform: `rotate3d(1, 1, 1, -25deg)`, borderRadius: `1em`}} />
         <RightInfo infoObject={InfoData02} queryData={query01.placeholderImage2.childImageSharp.fluid} imageStyling={{boxShadow: `50px 100px 35px #12121222`, transform: ` translateY(-50px) rotate3d(-1, 1, 1, 25deg)`, borderRadius: `1em`}} />
         <LeftInfo infoObject={InfoData03} queryData={query01.placeholderImage3.childImageSharp.fluid} imageStyling={{boxShadow: `-50px 100px 35px #12121222`, transform: `rotate3d(1, 1, 1, -25deg)`, borderRadius: `1em`}} />
         <RightInfo infoObject={InfoData04} queryData={query01.placeholderImage4.childImageSharp.fluid} imageStyling={{boxShadow: `50px 100px 35px #12121222`, transform: `rotate3d(-1, 1, 1, 25deg)`, borderRadius: `1em`}} />
         <RoadMap />
-        {/* <CountDownBlock /> */}
-        {/* <WorldwideUsers /> */}
-        {/* <OurWallet /> */}
-        {/* <CallToAction /> */}
         <DevBios />
       </Layout>
     </StickyProvider>
