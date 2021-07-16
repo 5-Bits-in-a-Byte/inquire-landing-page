@@ -1,4 +1,5 @@
 import React from 'react';
+// import { useHistory, useLocation } from "react-router-dom";
 import { StickyProvider } from 'contexts/app/app.provider';
 import Seo from 'components/seo';
 import Banner from 'sections/banner';
@@ -65,8 +66,14 @@ export default function IndexPage() {
     query {
       socialCardImage: file(relativePath: {eq: "inquire-social-card.png"}) {
         childImageSharp {
+          resize(width: 1200) {
+            src
+            height
+            width
+          }
           fluid(maxWidth: 617) {
             ...GatsbyImageSharpFluid
+            src
           }
         }
       },
@@ -101,12 +108,15 @@ export default function IndexPage() {
     }
   `);
 
+  const location = window.location;
+
   return (
     <StickyProvider>
       <Layout>
         <Seo
           title="Inquire"
-          image={query01.socialCardImage.childImageSharp.fluid}
+          image={query01.socialCardImage ? query01.socialCardImage.childImageSharp.resize : null}
+          pathname={location}
         />
         <Banner />
         <WhyChoose />
