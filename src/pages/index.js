@@ -60,7 +60,7 @@ const InfoData04 = {
   },
 };
 
-export default function IndexPage() {
+export default function IndexPage({location}) {
 
   const query01 = useStaticQuery(graphql`
     query {
@@ -108,13 +108,13 @@ export default function IndexPage() {
     }
   `);
 
-  const location = window.location;
+  // const location = window.location;
 
   return (
     <StickyProvider>
       <Layout>
         <Seo
-          title="Inquire"
+          title="Inquire Landing Page"
           image={query01.socialCardImage ? query01.socialCardImage.childImageSharp.resize : null}
           pathname={location}
         />

@@ -1,7 +1,7 @@
 module.exports = {
   // pathPrefix: '/landing',
   siteMetadata: {
-    title: `Inquire Message Board`,
+    title: `Inquire`,
     description: `A message board/forum for course instructors and students to post questions, provide answers, connect, and communicate.`,
     author: `Seth Tal, Brian Gunnarson, Sam Peters, Alec Springel, Aaron Van Cleave`,
     siteUrl: `https://inquiremb.com/`
