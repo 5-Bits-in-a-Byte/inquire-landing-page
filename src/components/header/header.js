@@ -30,6 +30,7 @@ export default function Header({ className }) {
                 {label}
               </ScrollLink>
             ))}
+            <a href="/privacy">Privacy Policy</a>
           </Flex>
           <MobileDrawer />
         </Container>
