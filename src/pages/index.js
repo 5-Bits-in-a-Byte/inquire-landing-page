@@ -24,7 +24,8 @@ const InfoData01 = {
   title: 'OAuth Authentication',
   text:
     'Inquire uses third party authentication through GitHub and Google to ensure our users can feel safe and secure with their accounts. This gives us no access to our user\'s usernames or passwords, meaning no malicious users can access them through Inquire either.',
-  button: {
+  text2: 'Inquire uses third party authentication through GitHub and Google for user sign in. We acquire specific user data such as: email, user data (First/Last name), and with Google specifically we also acquire the user\'s OpenID which we use to identify uses and tokenize their login session.',
+    button: {
     link: 'https://github.com/5-Bits-in-a-Byte/message-board/wiki/OAuth-Authentication',
     label: 'Learn More',
   },
