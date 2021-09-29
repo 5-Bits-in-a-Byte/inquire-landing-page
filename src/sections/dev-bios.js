@@ -14,7 +14,7 @@ const BIOS_DATA = [
     name: "Seth Tal",
     profileImg: STAL_PROFILE_IMG,
     roleTitle: "Full stack Developer",
-    info: "Seth is an aspiring Software Engineer currently seeking entry-level Programming Positions. Prefers either remote or local (Eugene, OR) opportunities.",
+    info: "Seth is a fulltime Software Engineer with experience working with various web technologies. Currently he works for Plexsys contributing to complex modeling and simulation software.",
     socials: [
       "https://github.com/Sephta",
       "https://www.linkedin.com/in/sethtal",

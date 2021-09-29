@@ -54,7 +54,7 @@ const InfoData03 = {
 const InfoData04 = {
   title: 'Classroom Interaction',
   text:
-    'Peer to peer interaction has never been easier! With the help of Inquire, students can interact by posting and replying to questions either normally or anonymously, as well as reacting to other students posts.',
+    'We incentevise classroom interaction through the implementation of unqiue Post types as well as allowing Users to configure how content is shared with others. Users can interact by posting and replying to questions either normally or anonymously, as well as reacting to other students posts.',
   button: {
     link: 'https://github.com/5-Bits-in-a-Byte/message-board/wiki/Classroom-Interaction',
     label: 'Learn More',
@@ -115,7 +115,7 @@ export default function IndexPage({location}) {
     <StickyProvider>
       <Layout>
         <Seo
-          title="Inquire Landing Page"
+          title="Landing Page"
           image={query01.socialCardImage ? query01.socialCardImage.childImageSharp.resize : null}
           pathname={location}
         />
