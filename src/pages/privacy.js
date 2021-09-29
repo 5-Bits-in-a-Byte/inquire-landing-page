@@ -5,7 +5,7 @@ import Seo from 'components/seo';
 
 const Privacy = ({props}) => (
   <Layout>
-    <Seo title="Inquire | Privacy Policy" />
+    <Seo title="Privacy Policy" />
     <div id="privacy-policy-container" style={{padding: `0 5em`}}>
     <h1 style={{margin: `5em 0`}}>Privacy Policy for Inquire</h1>
     
